@@ -21,4 +21,12 @@ public class MyList<T> {
     public void setInstance(T[] instance) {
         this.instance = instance;
     }
+
+    public static T test(T item) { //对象级的不行
+
+    }
+
+    public static <E> E test2(E item) {  //自己定义的可以
+
+    }
 }
